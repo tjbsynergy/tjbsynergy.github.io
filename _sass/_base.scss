@@ -87,7 +87,7 @@ aside {
         }
     }
     .nav {
-        border-bottom: 1px solid #222;
+        //border-bottom: 1px solid #222;
         > li {
             > a,
             > a:focus {
@@ -112,9 +112,9 @@ aside {
         }
     }
     @media (min-width: 768px) {
-        border-bottom: 1px solid #222;
+        //border-bottom: 1px solid #222;
         //background-color: transparent;
-        //border-color: rgba(white, .3);
+        border-color: rgba(white, .3);
         //border-color: rgba(teal, .3);
         .navbar-header .navbar-brand {
             color: rgba(white, .7);
