@@ -84,6 +84,7 @@ aside {
         &:focus {
             color: darken($theme-primary, 10%);
         }
+        border-bottom: 1px solid #222;
     }
     .nav {
         > li {
