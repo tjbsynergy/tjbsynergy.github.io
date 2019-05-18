@@ -73,6 +73,7 @@ aside {
     //background-color: black;
     background-color: white;
     border-color: rgba($theme-dark, .5);
+    border-bottom: 1px solid #222;
     @include sans-serif-font;
     @include transition-all;
     .navbar-header .navbar-brand {
@@ -84,7 +85,6 @@ aside {
         &:focus {
             color: darken($theme-primary, 10%);
         }
-        border-bottom: 1px solid #222;
     }
     .nav {
         > li {
