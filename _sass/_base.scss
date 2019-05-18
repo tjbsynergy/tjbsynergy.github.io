@@ -71,7 +71,7 @@ aside {
 
 .navbar-default {
     //background-color: black;
-    background-color: grey;
+    background-color: white;
     border-color: rgba($theme-dark, .5);
     @include sans-serif-font;
     @include transition-all;
@@ -101,9 +101,9 @@ aside {
                 > a,
                 > a:focus {
                     color: $theme-primary !important;
-                    background-color: transparent;
+                    //background-color: transparent;
                     &:hover {
-                        background-color: transparent;
+                        //background-color: transparent;
                     }
                 }
             }
@@ -123,8 +123,10 @@ aside {
         }
         .nav > li > a,
         .nav > li > a:focus {
-            color: rgba(white, .7);
+            //color: rgba(white, .7);
+            color: rgba(black, .7);
             &:hover {
+                //color: white;
                 color: white;
             }
         }
