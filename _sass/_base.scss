@@ -186,7 +186,8 @@ header {
     //background-position: center;
     //background-image: url('../img/header.jpg');
     text-align: center;
-    color: teal;
+    color: $theme-primary;
+    //color: teal;
     .header-img {
       position: relative;
       width: 100%;
@@ -200,6 +201,7 @@ header {
         text-align: center;
         padding: 100px 15px 100px;
         width: 100%;
+        color: $theme-primary;
         .header-content-inner {
             h1 {
                 color: $theme-primary;
