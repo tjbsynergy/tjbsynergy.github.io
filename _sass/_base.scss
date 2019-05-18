@@ -110,9 +110,11 @@ aside {
     }
     @media (min-width: 768px) {
         //background-color: transparent;
-        border-color: rgba(white, .3);
+        //border-color: rgba(white, .3);
+        border-color: rgba(teal, .3);
         .navbar-header .navbar-brand {
-            color: rgba(white, .7);
+            //color: rgba(white, .7);
+            color: rgba(teal, .7);
             &:hover,
             &:focus {
                 color: white;
@@ -161,14 +163,14 @@ aside {
 // Homepage Header
 
 header {
-    //position: relative;
-    //width: 100%;
-    //min-height: auto;
-    //@include background-cover;
-    //background-position: center;
-    //background-image: url('../img/header.jpg');
-    //text-align: center;
-    //color: teal;
+    position: relative;
+    width: 100%;
+    min-height: auto;
+    @include background-cover;
+    background-position: center;
+    background-image: url('../img/header.jpg');
+    text-align: center;
+    color: teal;
     .header-content {
         position: relative;
         text-align: center;
