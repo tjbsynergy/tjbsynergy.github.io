@@ -147,6 +147,15 @@ aside {
     }
 }
 
+.masthead {
+  height: 100vh;
+  min-height: 500px;
+  background-image: url('../img/header.jpg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
 // Homepage Header
 
 header {
@@ -180,14 +189,6 @@ header {
                 margin-bottom: 50px;
             }
         }
-    }
-    .masthead {
-      height: 100vh;
-      min-height: 500px;
-      background-image: url('../img/header.jpg');
-      background-size: cover;
-      background-position: center;
-      background-repeat: no-repeat;
     }
     @media (min-width: 768px) {
         min-height: 100%;
