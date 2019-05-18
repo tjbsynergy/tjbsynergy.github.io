@@ -153,9 +153,9 @@ header {
     position: relative;
     width: 100%;
     min-height: auto;
-    @include background-cover;
-    background-position: center;
-    background-image: url('../img/header.jpg');
+    //@include background-cover;
+    //background-position: center;
+    //background-image: url('../img/header.jpg');
     text-align: center;
     color: teal;
     .header-content {
