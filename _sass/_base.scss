@@ -170,10 +170,10 @@ aside {
 
 header {
     position: relative;
-    //width: 100%;
-    //min-height: auto;
-    height: 65vh;
-    min-height: 300px
+    width: 100%;
+    min-height: auto;
+    //height: 65vh;
+    //min-height: 300px
     @include background-cover;
     background-position: center;
     background-image: url('../img/header.jpg');
