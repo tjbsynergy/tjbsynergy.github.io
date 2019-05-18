@@ -169,16 +169,24 @@ aside {
 // Homepage Header
 
 header {
-    position: relative;
-    width: 100%;
-    min-height: auto;
-    //height: 65vh;
-    //min-height: 300px
-    @include background-cover;
-    background-position: center;
-    background-image: url('../img/header.jpg');
+    //position: relative;
+    //width: 100%;
+    //min-height: auto;
+    //@include background-cover;
+    //background-position: center;
+    //background-image: url('../img/header.jpg');
     text-align: center;
     color: teal;
+    .header-img {
+      position: relative;
+      width: 100%;
+      min-height: auto;
+      //height: 65vh;
+      //min-height: 300px
+      @include background-cover;
+      background-position: center;
+      background-image: url('../img/header.jpg');
+    }
     .header-content {
         position: relative;
         text-align: center;
