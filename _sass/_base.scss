@@ -156,8 +156,8 @@ header {
     //@include background-cover;
     //background-position: center;
     //background-image: url('../img/header.jpg');
-    text-align: center;
-    color: teal;
+    //text-align: center;
+    //color: teal;
     .header-content {
         position: relative;
         text-align: center;
@@ -180,6 +180,14 @@ header {
                 margin-bottom: 50px;
             }
         }
+    }
+    .masthead {
+      height: 100vh;
+      min-height: 500px;
+      background-image: url('../img/header.jpg');
+      background-size: cover;
+      background-position: center;
+      background-repeat: no-repeat;
     }
     @media (min-width: 768px) {
         min-height: 100%;
