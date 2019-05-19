@@ -56,7 +56,8 @@ p {
 }
 
 section {
-    padding: 100px 0;
+    //padding: 100px 0;
+    padding: 60px 0;
 }
 
 aside {
@@ -174,6 +175,15 @@ aside {
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
+}
+
+#logosnap {
+    position: relative;
+}
+#logosnap img {
+    position: absolute;
+    top: 0px;
+    left: 0px;
 }
 
 // Homepage Header
