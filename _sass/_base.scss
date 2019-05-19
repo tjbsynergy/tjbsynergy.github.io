@@ -187,7 +187,8 @@ aside {
 }
 
 .img-overlay {
-    position: relative;
+    //position: relative;
+    position: inherit;
     max-width: 500px;
 }
 
