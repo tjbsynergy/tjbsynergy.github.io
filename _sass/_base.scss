@@ -181,8 +181,8 @@ aside {
     position: relative;
 }
 #logosnap img {
-    position: absolute;
-    top: 0px;
+    position: fixed;
+    top: -10px;
     left: 0px;
 }
 
